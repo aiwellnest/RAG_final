@@ -37,5 +37,24 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBuuHmCquoXBNHJYSskCCjr7ELraNpHtNg",
+      authDomain: "ai-wellnest.firebaseapp.com",
+      projectId: "ai-wellnest",
+      storageBucket: "ai-wellnest.appspot.com",
+      messagingSenderId: "184133489665",
+      appId: "1:184133489665:web:cf5ae7da64dd279cc01c00"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
